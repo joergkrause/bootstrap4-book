@@ -2,6 +2,6 @@
 	"name": "ASP.NET",
 	"private": true,
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap4-dist": "*"
   }
 }
