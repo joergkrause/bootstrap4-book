@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      width: 550px;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+
+    img {
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">Datei</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          Aktion <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Ansehen</a></li>
+          <li><a href="#">Verschieben</a></li>
+          <li><a href="#">Kopieren</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Löschen</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

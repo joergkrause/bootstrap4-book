@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+
+    img {
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+            <span class="sr-only">Logo</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">
+                Datei
+                <span class="sr-only">Datei</span>
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true" aria-expanded="false">
+                Funktionen <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Kopieren</a></li>
+                <li><a href="#">Verschieben</a></li>
+                <li><a href="#">Ansehen</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Löschen</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Umbenennen</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Suchwort">
+            </div>
+            <button type="submit" class="btn btn-default">Suchen</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Ansehen</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true" aria-expanded="false">
+                Bearbeiten <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Zuschneiden</a></li>
+                <li><a href="#">Vergrößern</a></li>
+                <li><a href="#">Helligkeit</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Rahmen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>

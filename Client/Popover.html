@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+  <script>
+    $(function () {
+      $('#example button').popover({});
+    });
+  </script>
+</head>
+<body>
+  <div class="container sample" id="example">
+    <button type="button" class="btn btn-default"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="left"
+            data-content="Dies ist ein sehr hilfreicher Hilfetext.">
+      Platzierung links
+    </button>
+
+    <button type="button" class="btn btn-default"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            data-content="Dies ist ein sehr hilfreicher Hilfetext.">
+      Platzierung oben
+    </button>
+
+    <button type="button" class="btn btn-default"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            data-content="Dies ist ein sehr hilfreicher Hilfetext.">
+      Platzierung unten
+    </button>
+
+    <button type="button" class="btn btn-default"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="right"
+            data-content="Dies ist ein sehr hilfreicher Hilfetext.">
+      Platzierung rechts
+    </button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+  <script>
+    $(function () {
+      $('#example button').popover({});
+    });
+  </script>
+</head>
+<body>
+  <div class="container sample" id="example">
+    <a class="btn btn-primary" role="button"
+       data-toggle="collapse" href="#collapseExample"
+       aria-expanded="false" aria-controls="collapseExample">
+      Link
+    </a>
+    <button class="btn btn-primary" type="button"
+            data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+      Schaltfläche
+    </button>
+    <div class="collapse" id="collapseExample">
+      <div class="well">
+        ...
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+
+    img {
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="sample">
+    <div class="alert alert-success" role="alert">
+      Erfolg!
+    </div>
+    <div class="alert alert-info" role="alert">
+      Information
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Warnung
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Gefahr
+    </div>
+  </div>
+  <br />
+  <div class="sample">
+    <div class="alert alert-success" role="alert">
+      Erfolg! 
+    </div>
+    <div class="alert alert-info" role="alert">
+      Information
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Warnung! <a href="#" class="alert-link">Mehr dazu</a>
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Gefahr! <a href="#" class="alert-link">Stacktrace</a>
+    </div>
+  </div>
+  <br />
+  <div class="container sample">
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close"
+              data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <strong>Achtung!</strong>
+      Bitte überprüfen Sie die Angaben.
+    </div>
+  </div>
+</body>
+</html>

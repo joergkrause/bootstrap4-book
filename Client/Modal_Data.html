@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+  <script>
+    $(function() {
+      $('#exampleModal').on('show.bs.modal', function(event) {
+        var button = $(event.relatedTarget);
+        var recipient = button.data('whatever');
+        var modal = $(this);
+        modal.find('.modal-title').text('Nachricht an ' + recipient);
+        modal.find('#recipient').val(recipient);
+      });
+    });
+  </script>
+</head>
+<body>
+  <button type="button" class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          data-whatever="anna@muster.de">
+    Öffne Anna
+  </button>
+  <button type="button" class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          data-whatever="berta@muster.de">
+    Öffne Berta
+  </button>
+  <button type="button" class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          data-whatever="chri@muster.de">
+    Öffne Chris
+  </button>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1"
+       role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close"
+                  data-dismiss="modal" 
+                  aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="exampleModalLabel">
+            Neue Nachricht
+          </h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient" class="control-label">
+                Empfänger:
+              </label>
+              <input type="text" class="form-control" id="recipient">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="control-label">
+                Nachricht:
+              </label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default"
+                  data-dismiss="modal">
+            Schließen
+          </button>
+          <button type="button" class="btn btn-primary">
+            Senden
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

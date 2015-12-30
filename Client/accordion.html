@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+  <script>
+    $(function() {
+      $('.collapse.in').collapse();
+    });
+  </script>
+</head>
+<body>
+  <div class="container sample" id="example">
+<div class="panel-group" id="accordion" 
+     role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" 
+           data-parent="#accordion" 
+           href="#collapseOne" 
+           aria-expanded="true" aria-controls="collapseOne">
+          Gruppe 1
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" 
+         role="tabpanel" 
+         aria-labelledby="headingOne">
+      <div class="panel-body">
+        Viel Text in Gruppe 1.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" 
+           data-toggle="collapse" 
+           data-parent="#accordion" 
+           href="#collapseTwo" 
+           aria-expanded="false" aria-controls="collapseTwo">
+          Gruppe 2
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" 
+         role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Viel Text in Gruppe 2.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" 
+           data-toggle="collapse" 
+           data-parent="#accordion"  
+           href="#collapseThree" 
+           aria-expanded="false" aria-controls="collapseThree">
+          Gruppe 3
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" 
+         class="panel-collapse collapse" 
+         role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Viel Text in Gruppe 3.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</body>
+</html>
