@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
-  
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
@@ -22,10 +22,23 @@
 <body>
   <div class="container sample">
     <div class="card card-block">
-      <p class="card-header">Meldung</p>
-      <p class="card-body">
-        Meldungstext
-      </p>
+      <div class="card-header">Titel</div>
+      <div class="card-text">
+        <p>Übersicht Einkommen</p>
+      </div>
+
+      <!-- Tabelle -->
+      <table class="table table-sm">
+        <tr>
+          <td>Name</td><td>Betrag</td>
+        </tr>
+        <tr>
+          <td>Müller</td><td>&euro; 2766,00</td>
+        </tr>
+        <tr>
+          <td>Kosanke</td><td>&euro; 4500,20</td>
+        </tr>
+      </table>
     </div>
   </div>
 </body>

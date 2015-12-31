@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
-  
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
@@ -21,11 +21,21 @@
 </head>
 <body>
   <div class="container sample">
-    <div class="card card-block">
-      <p class="card-header">Meldung</p>
-      <p class="card-body">
-        Meldungstext
-      </p>
+    <div class="card-group">
+      <!-- Karte 1 -->
+      <div class="card card-success">
+        <div class="card-header">Info</div>
+        <div class="card-block">
+          <p class="card-text">Infotext hier</p>
+        </div>
+      </div>
+      <!-- Karte 2 -->
+      <div class="card card-info">
+        <div class="card-header">Meldung</div>
+        <div class="card-block">
+          <p class="card-text">Hier steht mehr...</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>

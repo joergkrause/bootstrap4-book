@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
-  
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
@@ -21,11 +21,17 @@
 </head>
 <body>
   <div class="container sample">
-    <div class="card card-block">
-      <p class="card-header">Meldung</p>
-      <p class="card-body">
-        Meldungstext
-      </p>
+    <div class="card text-center" style="width: 300px">
+      <!-- Image -->
+      <img class="card-img-top" src="../Res/Background.jpg" alt="Lampe">
+      <!-- Text Overlay -->
+      <div class="card-img-overlay card-inverse text-right">
+        <h4 class="card-title">Verstanden?</h4>
+        <p class="card-text">Das ist Bootstrap 4</p>
+      </div>
+      <div class="card-block">
+        Weiter geht es mit neuen Stilen...
+      </div>
     </div>
   </div>
 </body>
