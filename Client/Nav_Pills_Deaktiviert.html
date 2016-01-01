@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
-  
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
@@ -26,19 +26,23 @@
 </head>
 <body>
   <div class="container sample">
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar">
-      <div class="btn-group btn-group-justified" role="group">
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-secondary">Links</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-secondary">Mitte</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-secondary">Rechts</button>
-        </div>
-      </div>
-    </div>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="nav-item">
+        <a href="#" class="nav-link active" data-toggle="pill">
+          Start
+        </a>
+      </li>
+      <li role="presentation" class="nav-item">
+        <a class="nav-link disabled" data-toggle="pill" href="#">
+          Profil
+        </a>
+      </li>
+      <li role="presentation" class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#">
+          Nachrichten
+        </a>
+      </li>
+    </ul>
   </div>
 </body>
 </html>

@@ -9,7 +9,7 @@
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
     .sample {
-      font-size: 150%;
+      font-size: 115%;
       width: 550px;
       border: 1px dotted silver;
       padding: 15px;
@@ -27,28 +27,24 @@
 <body>
   <div class="container sample">
     <ul class="nav nav-tabs">
-      <li role="presentation" class="active">
-        <a href="#" data-toggle="tab">Dateien</a>
+      <li role="presentation" class="nav-item">
+        <a class="nav-link active" href="#" data-toggle="tab">Dateien</a>
       </li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle"
-           data-toggle="dropdown"
-           href="#" role="button"
-           aria-haspopup="true"
-           aria-expanded="false">
+      <li role="presentation" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#" role="button"
+            aria-haspopup="true"
+            aria-expanded="false">
           Quickmenü <span class="caret"></span>
         </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">Laden</a>
-          </li>
-          <li>
-            <a href="#">Entladen</a>
-          </li>
-        </ul>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Laden</a>
+          <a class="dropdown-item" href="#">Entladen</a>
+        </div>
       </li>
-      <li role="presentation">
-        <a href="#" data-toggle="tab">Backup</a>
+      <li role="presentation" class="nav-item">
+        <a class="nav-link" href="#" data-toggle="tab">Backup</a>
       </li>
     </ul>
   </div>

@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
-  
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
@@ -25,19 +25,16 @@
 </head>
 <body>
   <div class="sample">
-    <div class="progress">
-      <div class="progress-bar progress-bar-success"
-           style="width: 35%">
+    <div class="progress-bar">
+      <progress class="progress progress-success" value="35" max="100">
         <span class="sr-only">35% Complete (success)</span>
-      </div>
-      <div class="progress-bar progress-bar-warning progress-bar-striped"
-           style="width: 20%">
-        <span class="sr-only">20% Complete (warning)</span>
-      </div>
-      <div class="progress-bar progress-bar-danger"
-           style="width: 10%">
-        <span class="sr-only">10% Complete (danger)</span>
-      </div>
+      </progress>
+      <progress class="progress progress-warning" value="35" max="100">
+        <span class="sr-only">35% Complete (success)</span>
+      </progress>
+      <progress class="progress progress-info" value="35" max="100">
+        <span class="sr-only">35% Complete (success)</span>
+      </progress>
     </div>
   </div>
 </body>
