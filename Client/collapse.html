@@ -9,7 +9,6 @@
   <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
   <style>
     .sample {
-      font-size: 150%;
       border: 1px dotted silver;
       padding: 15px;
     }
@@ -26,19 +25,25 @@
 </head>
 <body>
   <div class="container sample" id="example">
-    <a class="btn btn-primary" role="button"
-       data-toggle="collapse" href="#collapseExample"
-       aria-expanded="false" aria-controls="collapseExample">
-      Link
+    <a class="btn btn-primary" 
+        role="button"
+        data-toggle="collapse" 
+        href="#collapseExample"
+        aria-expanded="false" 
+        aria-controls="collapseExample">
+      Via Link
     </a>
-    <button class="btn btn-primary" type="button"
-            data-toggle="collapse" data-target="#collapseExample"
-            aria-expanded="false" aria-controls="collapseExample">
-      Schaltfläche
+    <button class="btn btn-danger-outline" 
+            type="button"
+            data-toggle="collapse" 
+            data-target="#collapseExample"
+            aria-expanded="false" 
+            aria-controls="collapseExample">
+      Via Schaltfläche
     </button>
     <div class="collapse" id="collapseExample">
-      <div class="well">
-        ...
+      <div class="card card-block card-text">
+        Hier steht der Inhalt eines Bereiches, der dynamisch angezeigt wird...
       </div>
     </div>
   </div>
