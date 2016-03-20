@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 125%;
+      width: 550px;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+<div class="container sample">
+  <div class="row">
+    <form class="form-horizontal">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="">
+          Option one
+        </label>
+      </div>
+      <div class="checkbox disabled">
+        <label>
+          <input type="checkbox" value="" disabled>
+          Option two (deactivated)
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios"
+                 id="optionsRadios1" value="option1" checked>
+          Option one
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="optionsRadios"
+                 id="optionsRadios2" value="option2">
+          Option two
+        </label>
+      </div>
+      <div class="radio disabled">
+        <label>
+          <input type="radio" name="optionsRadios"
+                 id="optionsRadios3" value="option3" disabled>
+          Option three
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

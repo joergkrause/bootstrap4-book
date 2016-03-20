@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample" id="example">
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="card card-success"
+            role="tab">
+        <h4 class="card-header"
+            id="headingOne">
+          <a href="#collapseOne"
+              data-toggle="collapse"
+              data-parent="#accordion"
+              aria-expanded="true" 
+              aria-controls="collapseOne">
+          Group 1</a>
+        </h4>
+        <div id="collapseOne"
+              class="collapse in"
+              role="tabpanel"
+              aria-labelledby="headingOne">
+          <div class="card-block card-text">
+            A lot text in group 1.
+          </div>
+        </div>
+      </div>
+      <div class="card"
+            role="tab">
+        <h4 class="card-header"
+            id="headingTwo">
+          <a href="#collapseTwo"
+              data-toggle="collapse"
+              data-parent="#accordion"
+              aria-expanded="false" 
+              aria-controls="collapseTwo">Group 2</a>
+        </h4>
+        <div id="collapseTwo"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingTwo">
+          <div class="card-block card-text">
+            A lot text in group 2.
+          </div>
+        </div>
+      </div>
+      <div class="card"
+            role="tab">
+        <h4 class="card-header"
+            id="headingThree">
+          <a href="#collapseThree"
+              data-toggle="collapse"
+              data-parent="#accordion"
+              aria-expanded="false" 
+              aria-controls="collapseThree">
+          Group 3</a>
+        </h4>
+        <div id="collapseThree"
+              class="collapse"
+              role="tabpanel"
+              aria-labelledby="headingThree">
+          <div class="card-block card-text">
+            A lot text in group 3.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

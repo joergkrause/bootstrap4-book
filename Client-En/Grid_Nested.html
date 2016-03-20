@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+    [class^=col] {
+      border: 1px solid blue;
+    }
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row">
+      <div class="col-sm-9">
+        Parent are: 9 columns
+        <div class="row">
+          <div class="col-xs-8 col-sm-6">
+            Child 1: 8 or 6
+          </div>
+          <div class="col-xs-4 col-sm-6">
+            Child 2: 4 or 6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

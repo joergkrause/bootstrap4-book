@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample" id="example">
+    <a class="btn btn-primary" 
+        role="button"
+        data-toggle="collapse" 
+        href="#collapseExample"
+        aria-expanded="false" 
+        aria-controls="collapseExample">
+      Using Link
+    </a>
+    <button class="btn btn-danger-outline" 
+            type="button"
+            data-toggle="collapse" 
+            data-target="#collapseExample"
+            aria-expanded="false" 
+            aria-controls="collapseExample">
+      Using Button
+    </button>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-block card-text">
+        This is the content of the area shown dynamically...
+      </div>
+    </div>
+  </div>
+</body>
+</html>

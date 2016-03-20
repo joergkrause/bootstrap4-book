@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 100%;
+      width: 450px;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row">
+      <form class="form-inline">
+        <div class="form-group has-success has-feedback">
+          <label class="form-control-label sr-only" for="inputSuccess5">Hidden label</label>
+          <input type="text" class="form-control" id="inputSuccess5" aria-describedby="inputSuccess5Status">
+          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+          <span id="inputSuccess5Status" class="sr-only">(Success)</span>
+        </div>
+        <div class="form-group has-success has-feedback">
+          <label class="form-control-label sr-only" for="inputGroupSuccess4">Successful Group</label>
+          <div class="input-group">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status">
+          </div>
+          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+          <span id="inputGroupSuccess4Status" class="sr-only">(Success)</span>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

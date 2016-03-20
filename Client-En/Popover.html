@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+  <script>
+    $(function () {
+      $('#example button').popover({});
+    });
+  </script>
+</head>
+<body>
+  <div class="container sample" id="example">
+    <button type="button" class="btn btn-secondary"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="left"
+            data-content="This is a very helpful help text.">
+      Placed left
+    </button>
+
+    <button type="button" class="btn btn-secondary"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            data-content="This is a very helpful help text.">
+      Placed above
+    </button>
+
+    <button type="button" class="btn btn-secondary"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            data-content="This is a very helpful help text.">
+      Placed below
+    </button>
+
+    <button type="button" class="btn btn-secondary"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="right"
+            data-content="This is a very helpful help text.">
+      Placed right
+    </button>
+  </div>
+</body>
+</html>

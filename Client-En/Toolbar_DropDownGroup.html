@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      width: 550px;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+
+    img {
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+              Selection
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Copy</a>
+              <a class="dropdown-item" href="#">Move</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Delete</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="...">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="...">
+          <div class="input-group-btn">
+            <button type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+              Selection
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Copy</a>
+              <a class="dropdown-item" href="#">Move</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <li><a href="#">Delete</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

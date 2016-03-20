@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 115%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    body {
+      margin: 50px;
+    }
+
+    img {
+      width: 25%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggler hidden-sm-up"
+              data-toggle="collapse"
+              data-target="#n1"
+              aria-expanded="false">
+        <span class="sr-only">Logo</span>
+        ☰
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-toggleable-xs" id="n1">
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            File
+            <span class="sr-only">File</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true" aria-expanded="false">
+            Functions <span class=fa fa-caret-down></span>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Copy</a>
+            <a class="dropdown-item" href="#">Move</a>
+            <a class="dropdown-item" href="#">Show</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Delete</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Rename</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for">
+        </div>
+        <button type="submit" class="btn btn-secondary">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  </div>
+</body>
+</html>

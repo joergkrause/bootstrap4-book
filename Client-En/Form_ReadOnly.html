@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8"/>
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap.css" rel="stylesheet"/>
+  <link href="../bower_components/bootstrap4-dist/dist/css/bootstrap-theme.css" rel="stylesheet"/>
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap4-dist/dist/js/bootstrap.js"></script>
+  <style>
+    .sample
+    {
+      font-size: 125%;
+      width: 550px;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row">
+      <form>
+        <fieldset>
+          <div class="form-group">
+            <label for="disabledTextInput">Disabled Field</label>
+            <input type="text" id="disabledTextInput"
+                   class="form-control" readonly placeholder="Disabled Field">
+          </div>
+          <div class="form-group">
+            <label for="disabledSelect">Disabled Menu</label>
+            <select id="disabledSelect" class="form-control" readonly>
+              <option>Option A Disabled</option>
+              <option>Option B Disabled</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" readonly> Checkbox
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
