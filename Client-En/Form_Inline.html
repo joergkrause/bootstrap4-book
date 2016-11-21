@@ -1,41 +1,43 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  
-  <script src="../bower_components/jquery/dist/jquery.js"></script>
-  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 125%;
-      width: 550px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-    body {
-      margin: 50px;
-    }
-  </style>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        .sample {
+            font-size: 125%;
+            width: 550px;
+            border: 1px dotted silver;
+            padding: 15px;
+        }
+
+        body {
+            margin: 50px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container sample">
-    <form class="form-inline">
-      <div class="form-group">
-        <label for="exampleInputName2">Name</label>
-        <input type="text" class="form-control"
-               id="exampleInputName2" placeholder="The Name">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail2">eMail</label>
-        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="name@email.com">
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-secondary">Send</button>
-      </div>
-    </form>
-  </div>
+    <div class="container sample">
+        <div class="row">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control"
+                           id="exampleInputName2" placeholder="The Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail2">eMail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="name@email.com">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-secondary float-md-right">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

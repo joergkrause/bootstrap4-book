@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8"/>
   <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
-  <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet"/>
+
   <script src="../bower_components/jquery/dist/jquery.js"></script>
   <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <style>
@@ -32,13 +32,13 @@
         <label class="form-control-label" for="inputWarning1">A Warning</label>
         <input type="text" class="form-control" id="inputWarning1">
       </div>
-      <div class="form-group has-error">
+      <div class="form-group has-danger">
         <label class="form-control-label" for="inputError1">Error condition</label>
         <input type="text" class="form-control" id="inputError1">
       </div>
       <div class="has-success">
-        <div class="checkbox">
-          <label>
+        <div class="custom-checkbox">
+          <label class="form-control-label">
             <input type="checkbox" id="checkboxSuccess" value="option1">
             Successful
           </label>
@@ -46,15 +46,15 @@
       </div>
       <div class="has-warning">
         <div class="checkbox">
-          <label>
-            <input type="checkbox" id="checkboxWarning" value="option1">
+          <label class="form-control-label">
+            <input type="checkbox" class="has-warning" id="checkboxWarning" value="option1">
             Warning
           </label>
         </div>
       </div>
-      <div class="has-error">
+      <div class="has-danger">
         <div class="checkbox">
-          <label>
+          <label class="form-control-label">
             <input type="checkbox" id="checkboxError" value="option1">
             Error condition
           </label>

@@ -37,7 +37,7 @@
     "branch": "master",
     "commit": "93ebd79d82cea33bd29d511223e550e5380201cf"
   },
-  "_source": "git://github.com/crsr/bootstrap4-dist.git",
+  "_source": "https://github.com/crsr/bootstrap4-dist.git",
   "_target": "*",
   "_originalSource": "bootstrap4-dist"
 }

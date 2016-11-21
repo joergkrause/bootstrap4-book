@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        .sample {
+            font-size: 150%;
+            width: 550px;
+            border: 1px dotted silver;
+            padding: 15px;
+        }
+
+        body {
+            margin: 50px;
+        }
+
+        img {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container sample" style="margin-top: 200px">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button"
+                    id="dropdownMenu2" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+                Fold Down
+            </button>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenu1">
+                <a class="dropdown-item" href="#">Edit</a>
+                <a class="dropdown-item" href="#">Delete</a>
+                <a class="dropdown-item" href="#">Detail</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Block</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

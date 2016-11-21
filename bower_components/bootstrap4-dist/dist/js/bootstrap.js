@@ -1050,7 +1050,7 @@ var Collapse = (function ($) {
   };
 
   var Selector = {
-    ACTIVES: '.card > .in, .card > .collapsing',
+    ACTIVES: '.panel > .in, .panel > .collapsing',
     DATA_TOGGLE: '[data-toggle="collapse"]'
   };
 
