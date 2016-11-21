@@ -1,80 +1,80 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  
-  <script src="../bower_components/jquery/dist/jquery.js"></script>
-  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 150%;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bower_components/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        .sample {
+            font-size: 150%;
+            border: 1px dotted silver;
+            padding: 15px;
+        }
 
-    body {
-      margin: 50px;
-    }
-  </style>
-  <script>
-    //Alternative: JavaScript
-    //$(function () {
-    //  $('.carousel').carousel({
-    //    interval: 2000
-    //  });
-    //});
-  </script>
+        .carousel {
+            background-color: silver;
+            height: 400px;
+        }
+
+        .carousel-item img {
+            max-height: 170px;
+        }
+
+        body {
+            margin: 50px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container sample" id="example">
-    <div id="carousel-example-generic"
-         class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
+    <div class="container sample" id="example">
+        <div id="carousel-example-generic"
+             class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-      <div class="carousel-inner" role="listbox">
-        <div class="item active center-block">
-          <img src="../Res/css3.png">
-          <div class="carousel-caption">
-            CSS 3
-          </div>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active text-md-center">
+                    <img src="../Res/css3.png">
+                    <div class="carousel-caption">
+                        CSS 3
+                    </div>
+                </div>
+                <div class="carousel-item text-md-center">
+                    <img src="../Res/html5.png">
+                    <div class="carousel-caption">
+                        HTML 5
+                    </div>
+                </div>
+                <div class="carousel-item text-md-center">
+                    <img src="../Res/es6.png">
+                    <div class="carousel-caption">
+                        ES 6
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control"
+               href="#carousel-example-generic"
+               role="button"
+               data-slide="prev">
+                <span class="fa fa-chevron-left"
+                      aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control"
+               href="#carousel-example-generic"
+               role="button"
+               data-slide="next">
+                <span class="fa fa-chevron-right"
+                      aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <div class="item center-block">
-          <img src="../Res/html5.png">
-          <div class="carousel-caption">
-            HTML 5
-          </div>
-        </div>
-        <div class="item center-block">
-          <img src="../Res/es6.png">
-          <div class="carousel-caption">
-            ES 6
-          </div>
-        </div>
-      </div>
-
-      <a class="left carousel-control"
-         href="#carousel-example-generic"
-         role="button"
-         data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"
-              aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control"
-         href="#carousel-example-generic"
-         role="button"
-         data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"
-              aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-  </div>
 </body>
 </html>

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bower_components/tether/dist/css/tether.css" rel="stylesheet" />
+    <link href="../bower_components/tether/dist/css/tether-theme-basic.css" rel="stylesheet" />
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/tether/dist/js/tether.js"></script>    
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        .sample {
+            font-size: 100%;
+            border: 1px dotted silver;
+            padding: 15px;
+        }
+
+        body {
+            margin: 50px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+<body>
+    <div class="container sample">
+        <div class="row">
+            <button type="button" class="btn btn-default"
+                    data-toggle="tooltip" data-placement="left"
+                    title="Tooltip on left">
+                Tooltip left
+            </button>
+
+            <button type="button" class="btn btn-default"
+                    data-toggle="tooltip" data-placement="top"
+                    title="Tooltip on top">
+                Tooltip top
+            </button>
+
+            <button type="button" class="btn btn-default"
+                    data-toggle="tooltip" data-placement="bottom"
+                    title="Tooltip on bottom">
+                Tooltip bottom
+            </button>
+
+            <button type="button" class="btn btn-default"
+                    data-toggle="tooltip" data-placement="right"
+                    title="Tooltip on right">
+                Tooltip right
+            </button>
+        </div>
+    </div>
+</body>
+</html>
