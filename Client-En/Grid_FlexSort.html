@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-flex.css" rel="stylesheet" />
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    [class^=col] {
+      border: 1px solid blue;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row">
+      <div class="col-xs flex-xs-last">
+        1st in markup <br>
+        Last in layout <br>
+        flex-xs-last
+      </div>
+      <div class="col-xs flex-xs-first">
+        2nd in markup <br>
+        First in layout <br>
+        flex-xs-first
+      </div>
+      <div class="col-xs flex-xs-unordered">
+        3rd in markup <br>
+        Unordered in layout <br>
+        flex-xs-unordered
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs flex-xs-last flex-md-first" id="blue">
+        flex-xs-last <br>
+        flex-md-first <br>
+        Last on XS screens <br>
+        First on MD and up
+      </div>
+      <div class="col-xs flex-xs-first flex-md-last" id="red">
+        flex-xs-first <br>
+        flex-md-last <br>
+        First on XS screens <br>
+        Last on MD and up
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+

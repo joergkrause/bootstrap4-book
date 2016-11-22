@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-flex.css" rel="stylesheet" />
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    [class^=col] {
+      border: 1px solid blue;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+<div class="container sample">        
+  <div class="row">
+    <div class="col-xs">.col-xs <br> 1 of 3 (33%)</div>
+    <div class="col-xs">.col-xs <br> 1 of 3 (33%)</div>
+    <div class="col-xs">.col-xs <br> 1 of 3 (33%)</div>
+  </div>
+  <div class="row">
+    <div class="col-xs">.col-xs <br> 1 of 1 (100%)</div>
+  </div>
+  <div class="row">
+    <div class="col-xs">.col-xs <br> 1 of 2 (50%)</div>
+    <div class="col-xs">.col-xs <br> 1 of 2 (50%)</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-8">.col-xs-8 <br> 
+     Fixed 8 of 12 (66%), the other columns in 
+     the row will split the remaining 4 (33%) 
+    </div>
+    <div class="col-xs">.col-xs</div>
+    <div class="col-xs">.col-xs</div>
+  </div>
+</div>
+</body>
+</html>
+
+

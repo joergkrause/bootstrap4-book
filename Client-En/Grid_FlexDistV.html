@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-flex.css" rel="stylesheet" />
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    [class^=col] {
+      border: 1px solid blue;
+    }
+
+    .row {
+      height: 100px;
+      background-color: lightblue;
+      margin: 5px 0 0 0;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row flex-items-xs-middle">
+      <div class="col-xs">Row: flex-items-xs-middle</div>
+    </div>
+    <div class="row flex-items-xs-bottom">
+      <div class="col-xs">Row: flex-items-xs-bottom</div>
+    </div>
+    <div class="row flex-items-xs-top">
+      <div class="col-xs">Row: flex-items-xs-top</div>
+    </div>
+    <div class="row">
+      <div class="col-xs flex-xs-top">Column: flex-xs-top</div>
+      <div class="col-xs flex-xs-middle">Column: flex-xs-middle</div>
+      <div class="col-xs flex-xs-bottom">Column: flex-xs-bottom</div>
+    </div>
+  </div>
+</body>
+</html>
+
+

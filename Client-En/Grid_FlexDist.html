@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link href="../bower_components/bootstrap/dist/css/bootstrap-flex.css" rel="stylesheet" />
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <style>
+    .sample {
+      font-size: 150%;
+      border: 1px dotted silver;
+      padding: 15px;
+    }
+
+    [class^=col] {
+      border: 1px solid blue;
+    }
+
+    body {
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container sample">
+    <div class="row flex-items-xs-left">
+      <div class="col-xs-6 ">flex-items-xs-left</div>
+    </div>
+    <div class="row flex-items-xs-center">
+      <div class="col-xs-6">flex-items-xs-center</div>
+    </div>
+    <div class="row flex-items-xs-right">
+      <div class="col-xs-6">flex-items-xs-right</div>
+    </div>
+    <div class="row flex-items-xs-around">
+      <div class="col-xs-4">flex-items-xs-around</div>
+      <div class="col-xs-4">flex-items-xs-around</div>
+    </div>
+    <div class="row flex-items-xs-between">
+      <div class="col-xs-4">flex-items-xs-between</div>
+      <div class="col-xs-4">flex-items-xs-between</div>
+    </div>
+    <div class="row flex-items-xs-right flex-items-sm-left">
+      <div class="col-xs-8">Responsive alignment: <br> flex-items-xs-right <br> flex-items-sm-left</div>
+    </div>
+  </div>
+</body>
+</html>
+
+
