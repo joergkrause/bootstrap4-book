@@ -1,12 +1,21 @@
-# Bootstrap4-Book
+# Bootstrap 4 -- The Book
 
-## What is about?
+## German Edition
 
-Thhis repository supports my books about Bootstrap 4, published on LeanPub anbd available through Amazon (printed copy) and KDP (on Kindle).
+The book has been published by *texxtoor* and is available from LeanPub and Amazon:
 
-Get your copy here: https://leanpub.com/bootstrap4-intro-en
+* PDF, EPUB, and MOBI []() -- provided by LeanPub
+* For your Kindle [https://www.amazon.de/dp/B01A5YYQIM](https://www.amazon.de/dp/B01A5YYQIM) -- provided by Amazon KDP
+* As paper copy -- _full color edition_ --  [https://www.amazon.de/dp/1522950001](https://www.amazon.de/dp/1522950001) -- provided by Amazon CreateSpace
 
-## What is in it?
+## English Edition
 
-Deutsch: Demo Beispiele für Bootstrap 4-Buch in "Client"
-English: Demo samples for Bootstrap 4 book in "Client-En"
+The book has been published by Apress and is available as printed copy and electronically:
+
+* [https://www.apress.com/us/book/9781484223819](https://www.apress.com/us/book/9781484223819)
+  * Electronic: ISBN 978-1-4842-2382-6
+  * Paper (b/w): ISBN 978-1-4842-2381-9
+  
+  ## Other Editions
+  
+  This book is available for Bootstrap 3, written for version 3.3.7, too.
