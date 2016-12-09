@@ -4,7 +4,7 @@
 
 The book has been published by *texxtoor* and is available from LeanPub and Amazon:
 
-* PDF, EPUB, and MOBI []() -- provided by LeanPub
+* PDF, EPUB, and MOBI [https://leanpub.com/bootstrap4-intro](https://leanpub.com/bootstrap4-intro) -- provided by LeanPub
 * For your Kindle [https://www.amazon.de/dp/B01A5YYQIM](https://www.amazon.de/dp/B01A5YYQIM) -- provided by Amazon KDP
 * As paper copy -- _full color edition_ --  [https://www.amazon.de/dp/1522950001](https://www.amazon.de/dp/1522950001) -- provided by Amazon CreateSpace
 
