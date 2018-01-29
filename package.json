@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap4-book",
+  "version": "1.0.0",
+  "description": "The book has been published by *texxtoor* and is available from LeanPub and Amazon:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joergkrause/bootstrap4-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joergkrause/bootstrap4-book/issues"
+  },
+  "homepage": "https://github.com/joergkrause/bootstrap4-book#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}

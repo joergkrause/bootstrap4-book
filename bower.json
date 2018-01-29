@@ -1,8 +1,0 @@
-{
-	"name": "ASP.NET",
-	"private": true,
-  "dependencies": {
-    "bootstrap": "4.0",
-    "Font-Awesome": "^4.7.0"
-  }
-}
