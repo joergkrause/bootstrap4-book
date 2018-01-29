@@ -26,28 +26,36 @@
 </head>
 <body>
   <div class="container sample">
-    <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">@</span>
-        <input type="text" class="form-control"
-                placeholder="User"
-                aria-describedby="basic-addon1">
-    </div>
-
-    <div class="input-group">
-        <input type="text" class="form-control"
-                placeholder="Email"
-                aria-describedby="basic-addon2">
-        <span class="input-group-addon" id="basic-addon2">
-        @example.de
-        </span>
-    </div>
-
-    <div class="input-group">
-        <span class="input-group-addon">&euro;</span>
-        <input type="text" class="form-control"
-                aria-label="Betrag (in EUR)">
-        <span class="input-group-addon">.00</span>
-    </div>
+      <div class="input-group">
+          <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input type="text" class="form-control"
+                  placeholder="User"
+                  aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group">
+          <input type="text" class="form-control"
+                  placeholder="Email"
+                  aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">
+              @example.de
+            </span>
+          </div>
+        </div>
+        
+        <div class="input-group">
+          <div class="input-group-prepend">
+              <span class="input-group-text">&euro;</span>
+          </div>
+          <input type="text" class="form-control"
+                  aria-label="Betrag (in EUR)">
+          <div class="input-group-append">
+              <span class="input-group-text">.00</span>
+          </div>
+        </div>
   </div>
 </body>
 </html>

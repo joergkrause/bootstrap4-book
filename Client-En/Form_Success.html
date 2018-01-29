@@ -4,7 +4,7 @@
   <title></title>
   <meta charset="utf-8" />
   <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  <link href="../node_modules/Font-Awesome/css/font-awesome.css" rel="stylesheet" />
+  <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
   <script src="../node_modules/jquery/dist/jquery.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <style>
@@ -24,21 +24,23 @@
   <div class="container sample">
     <div class="row">
       <form class="form-inline">
-        <div class="form-group has-success has-feedback">
+        <div class="form-group has-feedback">
           <label class="form-control-label" for="inputSuccess4">Success</label>
           <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status">
-          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+          <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
           <span id="inputSuccess4Status" class="sr-only">(Success)</span>
         </div>
       </form>
       <form class="form-inline">
-        <div class="form-group has-success has-feedback">
+        <div class="form-group has-feedback">
           <label class="form-control-label" for="inputGroupSuccess3">Successful Group</label>
           <div class="input-group">
-            <span class="input-group-addon">@</span>
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
             <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
           </div>
-          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+          <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
           <span id="inputGroupSuccess3Status" class="sr-only">(Success)</span>
         </div>
       </form>
