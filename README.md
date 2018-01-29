@@ -1,4 +1,8 @@
-# Bootstrap 4 -- The Book
+# Bootstrap 4
+
+Das Repository für das Buch bei Leanpub oder Amazon (Deutsche Ausgabe).
+
+The repository for the Book available from Apress (English Edition).
 
 ## Deutsche Ausgabe
 
