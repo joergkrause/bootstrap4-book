@@ -2,7 +2,7 @@
 
 Das Repository für das Buch bei Leanpub oder Amazon (Deutsche Ausgabe).
 
-The repository for the Book available from Apress (English Edition).
+This is the repository for the Book available from Apress (English Edition).
 
 ## Deutsche Ausgabe
 
