@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap4-book",
+  "name": "bootstrap4.4-book",
   "version": "1.0.0",
-  "description": "The book has been published by *texxtoor* and is available from LeanPub and Amazon:",
+  "description": "Code examples for Bootstrap 4.4 books (Apress)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/joergkrause/bootstrap4-book#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "jquery": "^3.4.3",
+    "popper.js": "^1.16.1"
   }
 }
