@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title></title>
     <meta charset="utf-8" />
     <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
@@ -8,47 +8,47 @@
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <style>
-        .sample {
-            font-size: 150%;
-            border: 1px dotted silver;
-            padding: 15px;
-        }
+      .sample {
+        font-size: 150%;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-        [class^=col] {
-            border: 1px solid blue;
-        }
+      [class^='col'] {
+        border: 1px solid blue;
+      }
 
-        body {
-            margin: 50px;
-        }
+      body {
+        margin: 50px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container sample">
 <div class="row">
-    <div class="col-xs-6 col-sm-3">
-        Small: 6 Tablet: 3<br />
-        More<br />
-        Even more
-    </div>
-    <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
-    <div class="clearfix visible-xs-block"></div>
-    <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
-    <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
+  <div class="col-sm-6 col-md-3">
+    Small: 6 Tablet: 3<br />
+    More<br />
+    Even more
+  </div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
+  <div class="clearfix">xx</div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
 </div>
-        <br />
-        <br />
-        <div class="row">
-            <div class="col-xs-6 col-sm-3">
-                Small: 6 Tablet: 3<br />
-                More<br />
-                Even more
-            </div>
-            <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
-            <div class="visible-xs-block"></div>
-            <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
-            <div class="col-xs-6 col-sm-3">Small: 6 Tablet: 3</div>
-        </div>
+<br />
+<br />
+<div class="row">
+  <div class="col-sm-6 col-md-3">
+    Small: 6 Tablet: 3<br />
+    More<br />
+    Even more
+  </div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
+  <div class="d-block d-sm-none">xx</div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
+  <div class="col-sm-6 col-md-3">Small: 6 Tablet: 3</div>
+</div>
     </div>
-</body>
+  </body>
 </html>
