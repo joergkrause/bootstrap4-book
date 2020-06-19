@@ -1,51 +1,53 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 125%;
-      width: 550px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 125%;
+        width: 550px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-    body {
-      margin: 50px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container sample">
-    <form class="row">
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-      </label>
-      <label class="checkbox-inline">
-        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
-      </label>
-
-      <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions"
-                id="inlineRadio1" value="option1"> 1
-      </label>
-      <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions"
-                id="inlineRadio2" value="option2"> 2
-      </label>
-      <label class="radio-inline">
-        <input type="radio" name="inlineRadioOptions"
-                id="inlineRadio3" value="option3"> 3
-      </label>
-    </form>
-  </div>
-</body>
+      body {
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container sample">
+      <form>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="checkbox" id="inlineCheckbox1" value="option1" />
+          <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="checkbox" id="inlineCheckbox2" value="option2" />
+          <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="checkbox" id="inlineCheckbox3" value="option3" />
+          <label class="form-check-label" for="inlineCheckbox3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+          <label class="form-check-label" for="inlineRadio1">1 </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+          <label class="form-check-label" for="inlineRadio2">2 </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input"  type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
+          <label class="form-check-label" for="inlineRadio3">3 </label>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

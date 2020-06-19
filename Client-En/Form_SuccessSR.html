@@ -1,48 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 100%;
-      width: 450px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 100%;
+        width: 450px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-    body {
-      margin: 50px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container sample">
-    <div class="row">
-<form class="form-inline">
-  <div class="form-group has-success has-feedback">
-    <label class="form-control-label sr-only" for="inputSuccess5">Hidden label</label>
-    <input type="text" class="form-control" id="inputSuccess5" aria-describedby="inputSuccess5Status">
-    <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
-    <span id="inputSuccess5Status" class="sr-only">(Success)</span>
-  </div>
-  <div class="form-group has-success has-feedback">
-    <label class="form-control-label sr-only" for="inputGroupSuccess4">Successful Group</label>
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text">@</span>
+      body {
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container sample">
+      <div class="row">
+        <form class="needs-validation" novalidate>
+          <div class="form-group position-relative">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control is-valid" id="inputEmail" placeholder="Email" value="joerg@krause.net" required />
+            <div class="valid-tooltip">Your email address looks good.</div>
+            <div class="valid-tooltip sr-only">Success! Email address looks good.</div>
+          </div>
+          <div class="form-group position-relative">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control is-invalid" id="inputPassword" placeholder="Password" required />
+            <div class="invalid-tooltip">Password not recognized.</div>
+            <div class="invalid-tooltip sr-only">Error! Password not recognized.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
       </div>
-      <input type="text" class="form-control" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status">
     </div>
-    <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
-    <span id="inputGroupSuccess4Status" class="sr-only">(Success)</span>
-  </div>
-</form>
-    </div>
-  </div>
-</body>
+  </body>
 </html>

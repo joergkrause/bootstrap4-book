@@ -1,63 +1,49 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 125%;
-      width: 550px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 125%;
+        width: 550px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-    body {
-      margin: 50px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container sample">
-    <form class="row">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" value="">
-          Option one
-        </label>
-      </div>
-      <div class="checkbox disabled">
-        <label>
-          <input type="checkbox" value="" disabled>
-          Option two (deactivated)
-        </label>
-      </div>
-
-      <div class="radio">
-        <label>
-          <input type="radio" name="optionsRadios"
-                  id="optionsRadios1" value="option1" checked>
-          Option one
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="optionsRadios"
-                  id="optionsRadios2" value="option2">
-          Option two
-        </label>
-      </div>
-      <div class="radio disabled">
-        <label>
-          <input type="radio" name="optionsRadios"
-                  id="optionsRadios3" value="option3" disabled>
-          Option three
-        </label>
-      </div>
-    </form>
-  </div>
-</body>
+      body {
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container sample">
+      <form>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" />
+          <label class="form-check-label"> Option one </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" disabled />
+          <label class="form-check-label"> Option two (deactivated) </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked />
+          <label class="form-check-label"> Option one </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+          <label class="form-check-label"> Option two </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled />
+          <label class="form-check-label"> Option three </label>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

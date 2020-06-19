@@ -23,28 +23,39 @@
 <body>
   <div class="container sample">
     <div class="row">
-      <form class="form-inline">
-        <div class="form-group has-feedback">
-          <label class="form-control-label" for="inputSuccess4">Success</label>
-          <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status">
-          <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
-          <span id="inputSuccess4Status" class="sr-only">(Success)</span>
+      <form class="needs-validation" novalidate>
+        <div class="form-group position-relative">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control is-valid" id="inputEmail" placeholder="Email" value="joerg@krause.net" required>
+            <div class="valid-tooltip">Your email address looks good.</div>
         </div>
-      </form>
-      <form class="form-inline">
-        <div class="form-group has-feedback">
-          <label class="form-control-label" for="inputGroupSuccess3">Successful Group</label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text">@</span>
-            </div>
-            <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
-          </div>
-          <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
-          <span id="inputGroupSuccess3Status" class="sr-only">(Success)</span>
+        <div class="form-group position-relative">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control is-invalid" id="inputPassword" placeholder="Password" required>
+            <div class="invalid-tooltip">Password not recognized.</div>
         </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
       </form>
     </div>
   </div>
+  <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, (form) => {
+          form.addEventListener('submit', (event) => {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
 </body>
 </html>

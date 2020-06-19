@@ -1,51 +1,48 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8"/>
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample
-    {
-      font-size: 125%;
-      width: 550px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
-    body {
-      margin: 50px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container sample">
-    <div class="row">
-      <form>
-        <fieldset disabled>
-          <div class="form-group">
-            <label for="disabledTextInput">Disabled Field</label>
-            <input type="text" id="disabledTextInput"
-                    class="form-control" placeholder="Disabled field">
-          </div>
-          <div class="form-group">
-            <label for="disabledSelect">Disabled Menu</label>
-            <select id="disabledSelect" class="form-control">
-              <option>Option A Disabled</option>
-              <option>Option B Disabled</option>
-            </select>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Checkbox
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary">Send</button>
-        </fieldset>
-      </form>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 125%;
+        width: 550px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
+      body {
+        margin: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container sample">
+      <div class="row">
+        <form>
+          <fieldset disabled>
+            <div class="form-group">
+              <label for="disabledTextInput">Disabled Field</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled field" />
+            </div>
+            <div class="form-group">
+              <label for="disabledSelect">Disabled Menu</label>
+              <select id="disabledSelect" class="form-control">
+                <option>Option A Disabled</option>
+                <option>Option B Disabled</option>
+              </select>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" />
+              <label class="form-check-label">Checkbox</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

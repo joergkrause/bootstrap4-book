@@ -1,61 +1,56 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-  
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 150%;
-      width: 550px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-    body {
-      margin: 50px;
-    }
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 150%;
+        width: 550px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-    img {
-      width: 25%;
-    }
-  </style>
-</head>
-<body>
-  <div class="container sample">
+      body {
+        margin: 50px;
+      }
+
+      img {
+        width: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container sample">
       <div class="input-group">
-          <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">@</span>
-          </div>
-          <input type="text" class="form-control"
-                  placeholder="User"
-                  aria-describedby="basic-addon1">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
         </div>
-        
-        <div class="input-group">
-          <input type="text" class="form-control"
-                  placeholder="Email"
-                  aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <span class="input-group-text" id="basic-addon2">
-              @example.de
-            </span>
-          </div>
+        <input type="text" class="form-control" placeholder="User" aria-describedby="basic-addon1" />
+      </div>
+
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon2" />
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">
+            @example.de
+          </span>
         </div>
-        
-        <div class="input-group">
-          <div class="input-group-prepend">
-              <span class="input-group-text">&euro;</span>
-          </div>
-          <input type="text" class="form-control"
-                  aria-label="Betrag (in EUR)">
-          <div class="input-group-append">
-              <span class="input-group-text">.00</span>
-          </div>
+      </div>
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">&euro;</span>
         </div>
-  </div>
-</body>
+        <input type="text" class="form-control" aria-label="Amount (in EUR)" />
+        <div class="input-group-append">
+          <span class="input-group-text">.00</span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

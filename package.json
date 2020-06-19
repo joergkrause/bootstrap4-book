@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap4.4-book",
+  "name": "bootstrap4.5-book",
   "version": "1.0.0",
   "description": "Code examples for Bootstrap 4.4 books (Apress)",
   "main": "index.js",
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/joergkrause/bootstrap4-book#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.3",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
 }
