@@ -6,6 +6,7 @@
   <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
   <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <style>
     .sample {
@@ -22,6 +23,11 @@
     img {
       width: 25%;
     }
+
+    a.disabled {
+      cursor:not-allowed;
+    }
+
   </style>
 </head>
 <body>
@@ -37,7 +43,7 @@
           <a class="dropdown-item" href="#">Delete</a>
           <a class="dropdown-item" href="#">Detail</a>
           <div role="separator" class="dropdown-divider"></div>
-          <a class="dropdown-item disabled" href="#">Block</a>
+          <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Block</a>
         </div>
     </div>
   </div>

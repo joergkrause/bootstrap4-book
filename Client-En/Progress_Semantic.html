@@ -1,62 +1,86 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample {
-      font-size: 150%;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 150%;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
 
-    body {
-      margin: 50px;
-    }
+      body {
+        margin: 50px;
+      }
 
-    img {
-      width: 25%;
-    }
-  </style>
-</head>
-<body>
-  <div class="sample">
-    <progress class="progress progress-success"
-              role="progressbar"
-              aria-valuenow="40"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              value="40" max="100">
-      <span class="sr-only">40% Complete (success)</span>
-    </progress>
-    <progress class="progress progress-info"
-              role="progressbar"
-              aria-valuenow="20"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              value="20" max="100">
-      <span class="sr-only">20% Complete</span>
-    </progress>
-    <progress class="progress progress-warning"
-              role="progressbar"
-              aria-valuenow="60"
-              aria-valuemin="0"
-              aria-valuemax="100" 
-              value="60" max="100">
-      <span class="sr-only">60% Complete (warning)</span>
-    </progress>
-    <progress class="progress progress-danger"
-              role="progressbar"
-              aria-valuenow="80"
-              aria-valuemin="0"
-              aria-valuemax="100" 
-              value="80" max="100">
-      <span class="sr-only">80% Complete (danger)</span>
-    </progress>
-  </div>
-</body>
+      img {
+        width: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sample">
+      <div class="progress">
+        <div
+          class="progress-bar bg-success"
+          role="progressbar"
+          aria-valuenow="40"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          value="40"
+          style="width: 40%"
+          max="100"
+        >
+          <span class="sr-only">40% Complete (success)</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar bg-info"
+          role="progressbar"
+          aria-valuenow="20"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          value="20"
+          style="width: 20%"
+          max="100"
+        >
+          <span class="sr-only">20% Complete</span>
+      </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar bg-warning"
+          role="progressbar"
+          aria-valuenow="60"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          value="60"
+          style="width: 60%"
+          max="100"
+        >
+          <span class="sr-only">60% Complete (warning)</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar bg-danger"
+          role="progressbar"
+          aria-valuenow="80"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          value="80"
+          style="width: 80%"
+          max="100"
+        >
+          <span class="sr-only">80% Complete (danger)</span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
