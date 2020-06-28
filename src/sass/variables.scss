@@ -1,0 +1,11 @@
+$myfont:  Helvetica, sans-serif;
+$hrcolor: blue;
+$hxcolor: azure;
+
+h1 {
+  font: 100% $myfont;
+  color: $hxcolor;
+}
+hr {
+  color: $hrcolor;
+}

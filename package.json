@@ -4,7 +4,7 @@
   "description": "Code examples for Bootstrap 4.4 books (Apress)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.9"
   }
 }
