@@ -1,91 +1,83 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <meta charset="utf-8"/>
-  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <style>
-    .sample
-    {
-      font-size: 125%;
-      width: 450px;
-      border: 1px dotted silver;
-      padding: 15px;
-    }
-    body, form {
-      margin: 20px;
-    }
-  </style>
-<script>
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // All Forms
-      var forms = document.getElementsByClassName('needs-validation');
-      // Handle submit buttons
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-  </script>
-</head>
-<body>
-<div class="container sample">
-  <div class="row">
-    <form class="needs-validation" novalidate>
-      <div class="form-group">
-        <label for="input1">
-          Success message
-        </label>
-        <input type="text" class="form-control" id="input1" required />
-        <div class="valid-feedback text-success">Ok</div>
-      </div>
-      <div class="form-group">
-        <label for="input2">
-          A Warning
-        </label>
-        <input type="text" value="Test" class="form-control" id="input2" required />
-        <div class="invalid-feedback text-warning">Not Ok</div>
-      </div>
-      <div class="form-group">
-        <label for="input3" >
-          Error condition
-        </label>
-        <input type="text" class="form-control" id="input3" required />
-      </div>
-      <div class="custom-checkbox">
-        <label class="col-form-label">
-          <input type="checkbox" id="checkboxSuccess" value="option1" />
-          Successful
-        </label>
-      </div>
-      <div class="checkbox">
-        <label class="col-form-label">
-          <input type="checkbox" required
-                  id="checkboxWarning" value="option1" />
-          Warning
-        </label>
-      </div>
-      <div class="checkbox">
-        <label class="col-form-label">
-          <input type="checkbox" id="checkboxError" 
-                  value="option1" required />
-          Error condition
-        </label>
-      </div>
-      <button class="btn btn-primary" type="submit">Test Form</button>
-    </form>
-  </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+      .sample {
+        font-size: 125%;
+        width: 450px;
+        border: 1px dotted silver;
+        padding: 15px;
+      }
+      body,
+      form {
+        margin: 20px;
+      }
+    </style>
+    <script>
+      (function () {
+        'use strict';
+        window.addEventListener(
+          'load',
+          function () {
+            // All Forms
+            var forms = document.getElementsByClassName('needs-validation');
+            // Handle submit buttons
+            var validation = Array.prototype.filter.call(forms, function (form) {
+              form.addEventListener(
+                'submit',
+                function (event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add('was-validated');
+                },
+                false
+              );
+            });
+          },
+          false
+        );
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container sample">
+<div class="row">
+  <form class="needs-validation" novalidate>
+    <div class="form-group">
+      <label for="input1">
+        Success message
+      </label>
+      <input type="text" class="form-control is-valid" id="input1" required />
+      <div class="valid-feedback text-success">Ok</div>
+    </div>
+    <div class="form-group">
+      <label for="input3">
+        Error condition
+      </label>
+      <input type="text" class="form-control is-invalid" id="input3" required />
+    </div>
+    <div class="form-check">
+        <input type="checkbox"  class="form-check-input is-valid" id="checkboxSuccess" value="option1" />
+        <label class="form-check-label">Successful</label>
+      </label>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input is-invalid" id="checkboxError" value="option1" required />
+        <label class="form-check-label">
+        Error condition
+      </label>
+    </div>
+    <button class="btn btn-primary" type="submit">Test Form</button>
+  </form>
 </div>
-</body>
+    </div>
+  </body>
 </html>

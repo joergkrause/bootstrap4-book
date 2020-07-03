@@ -1,0 +1,11 @@
+input[name='name'] {
+  position: absolute;
+  height: 150px;
+  margin-top: 0px; }
+
+input[name='address'] {
+  position: absolute;
+  height: 150px;
+  margin-top: 150px; }
+
+/*# sourceMappingURL=mixinloop.css.map */

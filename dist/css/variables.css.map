@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["../../src/sass/variables.scss"],"names":[],"mappings":"AAIA;EACE;EACA,OAJQ;;;AAMV;EACE,OARQ","file":"variables.css"}
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../../src/sass/variables.scss"
+	],
+	"names": [],
+	"mappings": "AAIA,AAAA,EAAE,CAAC;EACD,IAAI,EAAE,IAAI,CALF,SAAS,EAAE,UAAU;EAM7B,KAAK,EAJG,KAAK,GAKd;;AACD,AAAA,EAAE,CAAC;EACD,KAAK,EARG,IAAI,GASb"
+}

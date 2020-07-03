@@ -4,7 +4,8 @@
   "description": "Code examples for Bootstrap 4.4 books (Apress)",
   "main": "index.js",
   "scripts": {
-    "sass": "sass"
+    "sass": "sass",
+    "ns": "node ./tools/sass.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,12 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "sass": "^1.26.9"
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }

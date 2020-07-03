@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "mixinloop.css",
+	"sources": [
+		"../../src/sass/mixinloop.scss"
+	],
+	"names": [],
+	"mappings": "AAEI,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,EAAqB;EACzB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAMG,KAAK;EALd,UAAU,EAAE,GAAY,GACzB;;AAJD,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,SAAS,AAAd,EAAqB;EACzB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAMG,KAAK;EALd,UAAU,EAAE,KAAY,GACzB"
+}
