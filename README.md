@@ -4,12 +4,22 @@ This is the repository for the book available from Apress (English Edition, Boot
 
 ## English Edition
 
+### First Edition (2016)
+
 The book has been published by **Apress** and is available as printed copy and electronically:
 
 * [https://www.apress.com/us/book/9781484223819](https://www.apress.com/us/book/9781484223819)
   * Electronic: ISBN 978-1-4842-2382-6
   * Paper (b/w): ISBN 978-1-4842-2381-9
-  
+
+### Second Edition (2020)
+
+The book has been published by **Apress** and is available as printed copy and electronically:
+
+* [https://www.apress.com/gp/book/9781484262023](https://www.apress.com/gp/book/9781484262023)
+  * Electronic: ISBN 978-1-4842-6203-0
+  * Paper (b/w): ISBN 978-1-4842-6202-3
+
 ## How to Use?
 
 1. Install NodeJs
